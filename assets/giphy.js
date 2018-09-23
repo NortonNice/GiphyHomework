@@ -23,6 +23,7 @@ var giphy = "https://api.giphy.com/v1/gifs/search?api_key=1PnOSB1fyFf03iP8k6sIFV
         console.log(queryURL);
         console.log(response);
       });
+    });
 
 //NEED TO CONVERT TEXT FROM DYNAMICALLY CREATED BUTTONS AND MAKE IT <BUTTON DATA-ARTIST = TEXT FROM BUTTON LIKE WHEN I CHANGED CAT TO SNAKE IN DYNAMIC ELEMENTS ASSIGNMENT
 //NEED TO TAKE TEXT DATA FROM BUTTONS AND SEND IT TO API
@@ -30,11 +31,11 @@ var giphy = "https://api.giphy.com/v1/gifs/search?api_key=1PnOSB1fyFf03iP8k6sIFV
 //EVENT LISTENER FOR BUTTONS
 /*$("button").on("click", function() {
     var artist = $(this).attr(value);
-    console.log("clicked");
+    console.log("clicked");*/
+
+
     
  
 
 
 
-}
-)
